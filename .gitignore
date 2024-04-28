@@ -1,0 +1,6 @@
+.env
+env
+bash_env
+staticfiles/
+
+**/__pycache__

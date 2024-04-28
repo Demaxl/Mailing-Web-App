@@ -11,7 +11,7 @@ from .models import User, Email
 
 
 def index(request):
-
+    print("got request")
     # Authenticated users view their inbox
     if request.user.is_authenticated:
         return render(request, "mail/inbox.html")
